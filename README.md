@@ -35,23 +35,23 @@ Using Microsoft Excel and Solver, this project translates complex management and
 
 ##  Mathematical Formulation Snapshot
 
-### **Decision Variables ($X_i$)**
-* $X_1$: Straight Par 5 holes
-* $X_2$: Dogleg Par 5 holes
-* $X_3$: Straight Par 4 holes
-* $X_4$: Dogleg Par 4 holes
-* $X_5$: Long Par 3 holes
-* $X_6$: Short Par 3 holes
+### **Decision Variables (X_i)**
+* X_1: Straight Par 5 holes
+* X_2: Dogleg Par 5 holes
+* X_3: Straight Par 4 holes
+* X_4: Dogleg Par 4 holes
+* X_5: Long Par 3 holes
+* X_6: Short Par 3 holes
 
 ### **Objective Function**
-Maximize Total Golfer Enjoyment ($Z$):
-$$Z = 2.0X_1 + 1.5X_2 + 1.5X_3 + 2.0X_4 + 1.75X_5 + 2.25X_6 + \text{Clubhouse Bonus}$$
+Maximize Total Golfer Enjoyment (Z):
+Z = 2.0X_1 + 1.5X_2 + 1.5X_3 + 2.0X_4 + 1.75X_5 + 2.25X_6 + {Clubhouse Bonus}
 
 ### **Key Constraints**
-* **Total Holes:** $\sum X_i = 18$
-* **Total Par:** $70 \le \text{Par Sum} \le 72$
-* **Land Limit:** $\text{Total Acreage} \le 42 \text{ hectares}$
-* **Budget Cap:** $\text{Total Cost} \le \$20,000,000$ (Standard)
+* **Total Holes:** sum X_i = 18
+* **Total Par:** 70 <={Par Sum} <= 72
+* **Land Limit:** {Total Acreage} <= 42 <={ hectares}$
+* **Budget Cap:** {Total Cost} <= $20,000,000 (Standard)
 
 ----------------------------------------------------------------------------------------------------
 
